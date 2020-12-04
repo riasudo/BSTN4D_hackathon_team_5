@@ -1,5 +1,5 @@
 import './ProfilesPage.scss';
-
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 function ProfilesPage(props) {
@@ -19,12 +19,14 @@ function ProfilesPage(props) {
                     <p className="name">Jenny</p>
                 </div>
                 <div className="add">
-                    <div className="add-symbol">
-                        <div className="v-cross">
-                            
+                    <Link to='/profiles/create'>
+                        <div className="add-symbol">
+                            <div className="v-cross">
+                                
+                            </div>
+                            <div className="h-cross"></div>
                         </div>
-                        <div className="h-cross"></div>
-                    </div>
+                    </Link>
                     <p className="add-profile">Add profile</p>
                 </div>
             </div>
