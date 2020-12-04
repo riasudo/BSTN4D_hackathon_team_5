@@ -1,16 +1,14 @@
 // Update with your config settings.
 
 module.exports = {
-
-  development: {
-    client: 'sqlite3',
-    connection: {
-      host: "127.0.0.1",
-      user: "root",
-      password: "root",
-      database: "BSTN4D-hackathon",
-      charset: "utf8"
-    }
+  client: 'mysql',
+  connection: {
+    host: "127.0.0.1",
+    user: "root",
+    password: "root",
+    database: "BSTN4D-hackathon",
+    charset: "utf8"
+  
   },
 
   staging: {
