@@ -1,0 +1,15 @@
+@use './partials/typography' as *;
+
+.sign-in-page{
+    padding: 83px 0 82px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-card{
+    border: 1px solid #c4c4c4;
+    height: 735px;
+    width: 598px;
+    border-radius: 4px;
+    padding: 50px 103px;
+}
