@@ -1,6 +1,8 @@
 import image from "./assets/icons/walmart-main-logo-1.jpg" 
+
 import './SizeProfile.scss';
 import Dropdown from '../src/assets/icons/dropdown.svg'
+
 
 export default function SizeProfile (){
     return (

@@ -8,8 +8,9 @@ The project did not have tech stack requirements, but the tech stack for this pr
 - SCSS
 - Node 
 - Express
-- MySQL
+- MySQL -- Knex
 
-Hope you like this code! 
-[Ivan] -- (https://github.com/riasudo/) 
-[Steven] -- (https://github.com/stevenloewen)
+To run the project, make sure to run `npm i` on both server and client side. Run `node server.js` on the server side to run the server, and `npm start` on client side to see our proejct!
+
+Hope you enjoyed the project! 
+[Ivan] -- (https://github.com/riasudo/) & [Steven] -- (https://github.com/stevenloewen)
