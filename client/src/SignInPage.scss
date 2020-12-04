@@ -14,7 +14,9 @@
     padding: 50px 103px;
 }
 .logo{
-    // margin-bottom: 50px;
+    height: 31px;
+    width: 134px;
+    background-image: url('./assets/icons/walmart-main-logo-1.jpg');
 }
 .sign-in{
 // width: 90px;
@@ -55,6 +57,14 @@
 
     &:focus{
         outline: none;
+    }
+
+    &__eye{
+        width: 18px;
+        height: 14.2px;
+        margin: 1px 0 0.8px 0;
+        object-fit: contain;  
+        background-image: url('./assets/icons/eye.svg');
     }
 
     &__text{
