@@ -6,4 +6,10 @@ The project did not have tech stack requirements, but the tech stack for this pr
 
 - React
 - SCSS
+- Node 
+- Express
+- MySQL
 
+Hope you like this code! 
+[Ivan] -- (https://github.com/riasudo/) 
+[Steven] -- (https://github.com/stevenloewen)
