@@ -16,7 +16,15 @@ export default function SizeProfile (){
                     <div className="gender">
                         <div className="gender-label-dropdown">
                             <label htmlFor="size-profile-gender" className="size-profile-genderlabel">Gender</label>
-                            <img src={Dropdown} alt="dropdown arrow" className="dropdown-arrow"/>
+                            {/* <img src={Dropdown} alt="dropdown arrow" className="dropdown-arrow"/> */}
+                            <div class="dropdown">
+                                <img src={Dropdown} alt="dropdown arrow" className="dropdown-arrow"/>
+                                <div class="dropdown-content">
+                                <p>Small</p>
+                                <p>Medium</p>
+                                <p>Large</p>
+                                </div>
+                            </div>
                         </div>
                         <input htmlFor="size-profile-gender" className="size-profile-gender"/>
                     </div>
