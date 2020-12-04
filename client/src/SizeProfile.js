@@ -1,4 +1,5 @@
 import image from "./assets/icons/walmart-main-logo-1.jpg" 
+import "./SizeProfile.scss"
 
 export default function SizeProfile (){
     return (

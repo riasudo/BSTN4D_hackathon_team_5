@@ -6,7 +6,7 @@ import UserItemPage from './UserItemPage';
 import HomePage from './HomePage';
 import SignInPage from './SignInPage';
 import ProfilesPage from './ProfilesPage';
-import CreateProfilePage from './CreateProfilePage';
+import SizeProfile from './SizeProfile';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path = "/" exact component = {SignInPage} />
           {/* <Route path = "/" exact component = {HomePage} /> */}
           <Route path = "/profiles" exact component = {ProfilesPage} />
-          <Route path = "/profiles/create" exact component = {CreateProfilePage} />
+          <Route path = "/profiles/create" exact component = {SizeProfile} />
           <Route path = "/user" exact component = {UserPage} />
           <Route path = "/user/item" exact component = {UserItemPage} />          
         </Switch>
