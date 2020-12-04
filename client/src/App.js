@@ -5,6 +5,7 @@ import UserPage from './UserPage';
 import UserItemPage from './UserItemPage';
 import HomePage from './HomePage';
 import SignInPage from './SignInPage';
+import ProfilesPage from './ProfilesPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           {/* <SignInPage/> */}
           <Route path = "/" exact component = {SignInPage} />
           {/* <Route path = "/" exact component = {HomePage} /> */}
+          <Route path = "/profiles" exact component = {ProfilesPage} />
           <Route path = "/user" exact component = {UserPage} />
           <Route path = "/user/item" exact component = {UserItemPage} />          
         </Switch>
